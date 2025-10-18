@@ -1,6 +1,8 @@
-from pathlib import Path
 import duckdb
 import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_PATH = os.getenv("DUCKDB_PATH")
  
